@@ -234,8 +234,9 @@ const Login = () => {
           onSubmit={(e) => e.preventDefault()}
           className="w-full sm:w-8/12 md:w-5/12 lg:w-3/12 p-8 sm:p-10 bg-black bg-opacity-80 text-white rounded-lg"
         >
+          <h1>Prabhu Teja Malli</h1>
           <h1 className="font-bold text-3xl py-4 text-center">
-            {isSignInForm ? "Yassu" : "Sign Up"}
+            {isSignInForm ? "Sign In" : "Sign Up"}
           </h1>
 
           {!isSignInForm && (
@@ -270,6 +271,7 @@ const Login = () => {
             className="p-4 my-6 bg-red-700 hover:bg-red-800 w-full rounded-lg transition duration-200 font-semibold"
             onClick={handleButtonClick}
           >
+            
             {isSignInForm ? "Sign In" : "Sign Up"}
           </button>
 
