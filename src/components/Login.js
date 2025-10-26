@@ -235,7 +235,7 @@ const Login = () => {
           className="w-full sm:w-8/12 md:w-5/12 lg:w-3/12 p-8 sm:p-10 bg-black bg-opacity-80 text-white rounded-lg"
         >
           <h1 className="font-bold text-3xl py-4 text-center">
-            {isSignInForm ? "Sign In" : "Sign Up"}
+            {isSignInForm ? "Prabhu Teja" : "Sign Up"}
           </h1>
 
           {!isSignInForm && (
